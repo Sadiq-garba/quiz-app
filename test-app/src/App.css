@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.header{
+background-color:rgb(90, 58, 90) ;
+margin: auto -16px;
+padding: 16px 28px;
+box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+margin-bottom:20px;
+
+}
+
+.header h1{
+  color:white;
+  font-weight: 400;
+  }
+
+  input:focus{
+
+    outline:none;
+  }
+
+  .quiz-div{
+   background-color: rgb(204, 190, 190);
+   border-radius: 15px;
+   padding:10px;
+   color:black;
+   margin-top: 50px;
+  }
+  .quiz-div .option{
+
+    
+    background-color:rgb(90, 58, 90);
+    color:white;
+    border-radius: 15px;
+    padding: 10px;;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .quiz-div .option:hover{
+
+    
+    background-color:rgb(148, 119, 148);
+    color:white;
+    border-radius: 15px;
+    padding: 10px;;
+    text-align: center;
+  }
+  
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg-image{
+background-image: url('img/bg-4.jpg');
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center center;
+height: 100%;
+}
+
+
+
+.overlay{
+  background-color:black;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+.search{
+
+  background-color: white;
+  text-align: center;
+  border-radius:15px;
+  color:black;
+  display: block;
+  margin: 25px auto;
+ padding: 7px;
+
+}
+
+.submit{
+  display: block;
+  margin: 8px auto;
+
+}
+
+.input-div{
+
+  background-color: white;
+  margin:10px !important;
+  border-radius: 15px;
+  padding:20px;
+}
+
+.input-div input{
+ 
+ border: none;
+}
+
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+.aqua-gradient {
+  background: linear-gradient(40deg, #9b7298, #756e9e) !important;
+}
+
+.testimonial-card .avatar {
+  width: 120px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+
+
+button{ 
+
+  padding-top: 10px;
+ 
+}

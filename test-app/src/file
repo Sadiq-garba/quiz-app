@@ -1,0 +1,19 @@
+ <div>
+        <Header />
+         <div className="container">
+           
+           <div className="row justify-content-center" style={RowStyling}>
+         
+           {data.map((item, key)=> {
+             
+             return <Card name={item.name} mobile={item.mobile} key={key} id={key}  onDelete={deleteAction}/>;
+
+         })}
+
+           <Create onAdd={handleAdd} />
+           
+          
+          </div>
+         </div>
+        
+        </div> 
